@@ -18,7 +18,7 @@
 }
 
 .flag button {
-  @apply h-14 border-2 border-gray-200 focus:outline-none focus:border-getir-secondary transition-colors bg-white;
+  @apply h-14 border-2 border-gray-200 focus:outline-none focus:border-getir-secondary transition-colors bg-white bg-opacity-20;
 }
 
 .flag button > span span:nth-child(2) {
@@ -27,4 +27,5 @@
 
 .ReactCollapse--collapse {
   @apply transition-all;
+ 
 }
